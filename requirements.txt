@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly==5.18.0
+openpyxl
+Pillow
+py_vollib
+xlsxwriter
+graphviz
