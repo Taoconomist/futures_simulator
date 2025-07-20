@@ -1,22 +1,3 @@
-# 在 main.py 开头添加
-try:
-    import plotly.express as px
-except ImportError:
-    st.error("""
-    ### 缺少必要的依赖包: plotly
-    
-    请确保在 requirements.txt 中包含:
-    ```
-    plotly>=5.18.0
-    ```
-    """)
-    st.stop()
-
-# 其余的导入保持不变
-import streamlit as st
-import pandas as pd
-import numpy as np
-# ... 其他导入
 import streamlit as st
 import pandas as pd
 import numpy as np
